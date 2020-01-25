@@ -1,0 +1,76 @@
+.friends-header {
+  display: flex;
+  justify-content: space-between;
+}
+.friends-header__name {
+  font-family: NanumSquare;
+  font-size: 20px;
+  color: #333333;
+  margin: 15px 15px 15px;
+}
+.friends-header__row {
+  display: flex;
+}
+.friends-header__column {
+  margin-top: 10px;
+  margin-left: 15px;
+}
+.friends-profile__img {
+  width: 100px;
+}
+.friends-profile {
+  text-align: center;
+}
+.friends-profile__name {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.friend-image {
+  width: 48px;
+  margin-right: 8px;
+  border-radius: 1px;
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.4);
+}
+.friends-list__count {
+  font-size: 12px;
+  color: #666666;
+  margin-bottom: 15px;
+}
+.friends-list__column {
+  display: flex;
+  margin-bottom: 15px;
+}
+.friend-voice {
+  text-align: right;
+  background-color: #9ff3da;
+  margin-top: 15px;
+  height: 32px;
+  width: 32px;
+  border-radius: 50%;
+}
+.friend-state {
+  font-family: NanumSquareB;
+  font-size: 11px;
+  color: #555555;
+}
+.friend-info {
+  margin-top: 15px;
+  width: 100%;
+}
+.tab-bar {
+  background-color: #ffffff;
+  position: fixed;
+  width: 100%;
+  height: 52px;
+  bottom: 0;
+  display: flex;
+}
+.tab-bar .tab-bar__tab {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.tab-bar__tab--selected {
+  background-color: #0fe1a3;
+}
