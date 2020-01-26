@@ -1,5 +1,11 @@
 @import "friends.css";
+@import "chats.css";
+@import "header.css";
+@import "tabbar.css";
 * {
   font-family: "NanumSquare", sans-serif !important;
   font-weight: 700;
+}
+body {
+  margin: 0px;
 }

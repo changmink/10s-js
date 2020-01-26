@@ -1,0 +1,17 @@
+.tab-bar {
+  background-color: #ffffff;
+  position: fixed;
+  width: 100%;
+  height: 52px;
+  bottom: 0;
+  display: flex;
+}
+.tab-bar .tab-bar__tab {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.tab-bar__tab--selected {
+  background-color: #0fe1a3;
+}
