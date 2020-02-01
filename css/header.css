@@ -8,6 +8,10 @@
   font-family: NanumSquare;
   font-size: 20px;
   color: #333333;
+  display: flex;
+}
+.header__name-back {
+  margin-top: 4px;
 }
 .header__row {
   display: flex;
