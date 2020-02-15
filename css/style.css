@@ -3,6 +3,7 @@
 @import "header.css";
 @import "tabbar.css";
 @import "chat.css";
+@import "profile.css";
 
 * {
   font-family: "NanumSquare", sans-serif !important;

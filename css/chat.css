@@ -75,3 +75,13 @@
 .friend-message-button-img {
     background-color: #90c0b7;;
 }
+.chat-bar {
+    height: 80px;
+}
+.voice-new {
+    width: 54px;
+    height: 54px;
+    border-radius: 27px;
+    background-color: #0fe1a3;
+    margin-top: 13px;
+}

@@ -1,0 +1,36 @@
+.edit-button {
+  font-size: 20px;
+  text-align: right;
+  color: #10db9f;
+  margin-top: 8px;
+}
+
+.profile-img{ 
+    width: 276px;
+    border-radius: 2px;
+  box-shadow: 1px 1px 3px 0 rgba(0, 0, 0, 0.4);
+}
+.profile-main {
+    margin-left: 0px;
+}
+.edit-profile-img {
+  width: 45px;
+  height: 45px;
+  border-radius: 1px;
+  background-color: #0fe1a3;
+  position: fixed;
+  margin-top: 26px;
+  left: 250px;
+}
+.profile-info{
+    margin-left: 80px;
+    margin-top: 20px;
+}
+.profile-name {
+  font-size: 24px;
+  color: #222222;
+}
+.profile-message {
+  font-size: 15px;
+  color: #555555;
+}
