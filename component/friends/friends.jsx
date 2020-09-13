@@ -1,8 +1,8 @@
 import React from 'react';
-import Header from './header';
+import Header from '../header';
 import Profile from './profile';
 import FriendsList from './friendsList';
-import Tab from './tab';
+import Tab from '../tab';
 
 const Friends = () => {
     const friendsData = [
@@ -46,7 +46,7 @@ const Friends = () => {
    
     return (
         <>
-            <Header/>
+            <Header name={"친구목록"}/>
             <Profile/>
             <FriendsList friendsData={friendsData} />
             <nav class="tab-bar">

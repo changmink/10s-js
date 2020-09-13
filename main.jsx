@@ -1,6 +1,7 @@
 import React from 'react';
 import {BrowserRouter, Link, Route} from 'react-router-dom';
-import Friends from './component/friends'
+import Friends from './component/friends/Friends'
+import Chats from './component/chats/chats';
 const Main = () => {
     return (
         // <BrowserRouter>
@@ -9,7 +10,8 @@ const Main = () => {
         //         <Route path="/page/friends" component={Friends}/>     
         //     </div> 
         // </BrowserRouter>
-        <Friends/>
+        //<Friends/>
+        <Chats />
     );
 }
 
