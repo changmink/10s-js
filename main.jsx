@@ -2,6 +2,7 @@ import React from 'react';
 import {BrowserRouter, Link, Route} from 'react-router-dom';
 import Friends from './component/friends/Friends'
 import Chats from './component/chats/chats';
+import Chat from './component/chat/chat';
 const Main = () => {
     return (
         // <BrowserRouter>
@@ -11,7 +12,8 @@ const Main = () => {
         //     </div> 
         // </BrowserRouter>
         //<Friends/>
-        <Chats />
+        //<Chats />
+        <Chat />
     );
 }
 
