@@ -3,6 +3,7 @@ import {BrowserRouter, Link, Route} from 'react-router-dom';
 import Friends from './component/friends/Friends'
 import Chats from './component/chats/chats';
 import Chat from './component/chat/chat';
+import Profile from './component/profile/profile'
 const Main = () => {
     return (
         // <BrowserRouter>
@@ -13,7 +14,7 @@ const Main = () => {
         // </BrowserRouter>
         //<Friends/>
         //<Chats />
-        <Chat />
+        <Profile />
     );
 }
 
